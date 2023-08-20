@@ -1,3 +1,5 @@
+import Arrow from "../assets/right-arrow.svg"
+
 export default function Introduction({ onPageChange }) {
   const handleButtonChange = (nav) => {
     onPageChange(nav);
@@ -29,7 +31,7 @@ export default function Introduction({ onPageChange }) {
           >
             About
             <img
-              src="src\assets\right-arrow.svg"
+              src={Arrow}
               alt="Arrow"
               className="w-9 h-8"
             />

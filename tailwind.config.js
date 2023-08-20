@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        'round': '0px 0px 25px rgba(0, 0, 0, 0.3)',
+        'round-md': '0px 0px 15px rgba(0, 0, 0, 0.2)',
+        'round-lg': '0px 0px 25px rgba(0, 0, 0, 0.3)',
       }
     },
   },

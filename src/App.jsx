@@ -17,10 +17,10 @@ function App() {
     <>
       <Navbar onPageChange={handlePageChange} />
       {currentPage === "introPage" && <Introduction onPageChange={handlePageChange} />}
-      {currentPage === "aboutPage" && <About />}
+      {currentPage === "aboutPage" && <About onPageChange={handlePageChange} />}
       {/* {currentPage === "skillsPage" && <Skills />} */}
-      {currentPage === "projectsPage" && <Projects />}
-      {currentPage === "contactPage" && <Contact />}
+      {currentPage === "projectsPage" && <Projects onPageChange={handlePageChange} />}
+      {currentPage === "contactPage" && <Contact onPageChange={handlePageChange} />}
     </>
   );
 }
